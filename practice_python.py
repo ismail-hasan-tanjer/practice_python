@@ -69,6 +69,25 @@ num = int(s)
 num_str = str (num)
 print(y, w, num, num_str)
 
+#Python control flow 
+#conditional statements (if, elif, else)
+#Loops (for, while)
+#List Comprehension
+
+#conditional statements (if, elif, else)
+
+age = 18
+
+if age >= 18:
+    print("You are adult.")
+elif age >=13:
+    print("You are a teenager")
+else: 
+    print("You are a  child.")  #when we take conditional decision
+    
+
+    
+
 
 
 
