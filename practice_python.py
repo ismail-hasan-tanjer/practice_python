@@ -156,6 +156,24 @@ import math
 print(math.sqrt(16))
 
 
+#Object-Oriented Programming (OOP) in Python 
 
+#classes & Objects 
+#Inheritance & Polymorphism 
+
+#class and objects 
+
+class Person: 
+    def _init_(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def introduce(self):
+        return "My name is {}".format(self.name) and "I am {} years old.".format(self.age)
+    
+    
+    
+    
+    
 
 
