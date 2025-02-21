@@ -150,6 +150,11 @@ print(greet("Tanjer"))
 square = lambda x: x**2
 print(square(5))
 
+#Importing Modules 
+
+import math
+print(math.sqrt(16))
+
 
 
 
