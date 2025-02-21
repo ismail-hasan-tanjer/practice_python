@@ -14,6 +14,22 @@ height = 5.4
 is_student = True 
 print (name, age, height, is_student)
 
+#data type 
+# build in type data int, float, str, bool 
+
+#integer int 
+
+x = 100 
+y = 50 
+z = 0 
+print (type(x)) 
+
+
+
+
+
+
+
 
 
 
