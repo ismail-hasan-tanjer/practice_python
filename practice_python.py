@@ -85,21 +85,22 @@ elif age >=13:
 else: 
     print("You are a  child.")  #when we take conditional decision
     
+#Loops (for, while) 
+#Continuous working In python used loop 
 
+#for loop 
+
+for i in rage (5): 
+    print("Iteration:", 1)
     
+#while loop 
 
-
-
-
-
-
-
-
-
-
-
-
-
+x = 0
+while x < 5: 
+    print("Number:", x)
+    x+=1
+    
+    
 
 
 
