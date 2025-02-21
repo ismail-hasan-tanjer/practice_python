@@ -134,17 +134,19 @@ person = {"name": "Tanjer", "age":28, "city": "Dhaka"}
 print(person["name"])
 
 
+#Functions and Modules 
+
+#Defining Functions 
+#Lambda Functions 
+#Importing Modules 
+
+#Function Example 
+
+def greet(name):
+    return "Hello, {}!".format(name)
+print(greet("Tanjer"))
 
 
-
-
-
-
-
-
-
-
-    
 
 
 
