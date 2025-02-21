@@ -100,6 +100,15 @@ while x < 5:
     print("Number:", x)
     x+=1
     
+#list Comprehension 
+
+numbers = [x**2 for x in range(5)]
+print(numbers) 
+
+
+
+
+
     
 
 
