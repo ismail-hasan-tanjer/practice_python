@@ -146,6 +146,10 @@ def greet(name):
     return "Hello, {}!".format(name)
 print(greet("Tanjer"))
 
+#Lambda Function 
+square = lambda x: x**2
+print(square(5))
+
 
 
 
