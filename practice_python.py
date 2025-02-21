@@ -24,6 +24,24 @@ y = 50
 z = 0 
 print (type(x)) 
 
+#Floating Point (float) 
+#any decimal number save by float 
+
+pi = 3.1416
+g = 9.8 
+big_number = 1.5e4
+print(type(pi))
+
+#string (str)
+
+name = "python"
+message = "Hello, World!"
+multi_line = """This is 
+a multi_line
+string."""
+print(type(name))
+
+
 
 
 
