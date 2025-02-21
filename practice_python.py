@@ -90,7 +90,7 @@ else:
 
 #for loop 
 
-for i in rage (5): 
+for i in age (5): 
     print("Iteration:", 1)
     
 #while loop 
@@ -121,7 +121,7 @@ print(fruits[1])
 #Tuple (Immutable, Ordered)
 
 coordinate = (10, 20)
-print(coordinates[0])
+print(coordinate[0])
 
 #Set [Unique, Unordered] 
 
@@ -171,6 +171,17 @@ class Person:
     def introduce(self):
         return "My name is {}".format(self.name) and "I am {} years old.".format(self.age)
     
+    #file handling 
+    
+    with open("example.txt", "w") as file: 
+               file.write("Hellow, Python!")
+
+
+               
+               
+               
+               
+        
     
     
     
