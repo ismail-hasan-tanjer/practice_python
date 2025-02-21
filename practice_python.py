@@ -105,6 +105,41 @@ while x < 5:
 numbers = [x**2 for x in range(5)]
 print(numbers) 
 
+#python data structure 
+
+# => Lists (List) - Mutable Collection 
+# => Tuples (Tuple) - Immutable Collection  
+# => Sets (Set)  - Unique Items Collection 
+# => Dictionaries (Dict) - Key-Value Pair Collection 
+
+#List (Mutable, Ordered)
+
+fruits = ["Apple", "Banana", "Mango"]
+fruits.append("Orange") #add new element 
+print(fruits[1])
+
+#Tuple (Immutable, Ordered)
+
+coordinate = (10, 20)
+print(coordinates[0])
+
+#Set [Unique, Unordered] 
+
+unique_numbers = {1, 2, 3, 4, 4, 5}
+print(unique_numbers)
+
+#Dictionary (Key-Value Pair, Mutable)
+
+person = {"name": "Tanjer", "age":28, "city": "Dhaka"}
+print(person["name"])
+
+
+
+
+
+
+
+
 
 
 
