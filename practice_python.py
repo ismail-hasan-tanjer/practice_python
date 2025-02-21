@@ -41,6 +41,39 @@ a multi_line
 string."""
 print(type(name))
 
+#Boolean (bool)
+#Boolean accept true or false two type values 
+#used for logical operations and conditions 
+
+is_python_easy = True
+is_java_hard = False 
+print(type(is_python_easy))
+
+#Type conversion (type casting) 
+
+#Integer to  float 
+x = 10
+y = float(x)
+
+#float to integer 
+
+z = 5.9 
+w = int (z)
+
+#string to integer 
+s = "100"
+num = int(s)
+
+# integer to string
+
+num_str = str (num)
+print(y, w, num, num_str)
+
+
+
+
+
+
 
 
 
