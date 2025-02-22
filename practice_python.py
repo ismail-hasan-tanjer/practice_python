@@ -173,18 +173,14 @@ class Person:
     
     #file handling 
     
-    with open("example.txt", "w") as file: 
-               file.write("Hellow, Python!")
-
-
-               
-               
-               
-               
-        
+    #file write 
+    with open("example.txt", "w") as file: file.write("Hellow, Python!")
+    
+    #file read 
+    
+    with open ("example.txt", "r") as file: 
+        content = file.read()
+        print(content)
     
     
-    
-    
-
-
+                   
