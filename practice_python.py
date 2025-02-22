@@ -182,5 +182,29 @@ class Person:
         content = file.read()
         print(content)
     
+    # Exception Handling
+    #Error Management 
     
-                   
+    try: 
+        num = int(input("Enter a number:"))
+        print (10/num)          
+    except ZeroDivisionError: 
+        print("You cannot divide by zero!")
+    except ValueError: 
+        print("Invalid input! Please enter a number.")
+        
+#Regular Expressions (Regex)
+
+#Find digit 
+
+import re 
+
+text = "My phone number is 01938568752"
+pattern = r"\d{3}-\d{3}-\d{4}"
+
+match = re.search(pattern, text)
+if match: 
+    print("Phone number found:", match.group())
+else: 
+    print("No match found.")
+
