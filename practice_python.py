@@ -208,3 +208,14 @@ if match:
 else: 
     print("No match found.")
 
+#Found Image Address: 
+
+import re
+
+text = "Contact us at support@example.com or info@domain.com."
+pattern = r"[\w\.-]+@[\w\.-]+"  
+
+matches = re.findall(pattern, text)
+print("Email addresses found:", matches)
+
+
