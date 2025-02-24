@@ -219,3 +219,16 @@ matches = re.findall(pattern, text)
 print("Email addresses found:", matches)
 
 
+#Text Replace 
+
+import re
+
+text = "The rain in Bangladesh  falls mainly in the plain."
+pattern = r"rain"
+replacement = "snow"
+
+new_text = re.sub(pattern, replacement, text)
+print("Modified text:", new_text)
+
+
+
