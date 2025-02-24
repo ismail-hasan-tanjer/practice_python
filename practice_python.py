@@ -241,4 +241,20 @@ if re.match(pattern, text):
 else:
     print("No match found.")
 
+#Regex Grouping 
+
+import re
+
+text = "Date: 2023-10-05"
+pattern = r"(\d{4})-(\d{2})-(\d{2})"  # divide day, month, year
+
+match = re.search(pattern, text)
+if match:
+    print("Year:", match.group(1))
+    print("Month:", match.group(2))
+    print("Day:", match.group(3))
+    
+    
+    
+
 
