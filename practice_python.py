@@ -230,5 +230,15 @@ replacement = "snow"
 new_text = re.sub(pattern, replacement, text)
 print("Modified text:", new_text)
 
+#String frist to last matching 
+import re
+
+text = "Hello, World!"
+pattern = r"^Hello"  
+
+if re.match(pattern, text):
+    print("Match found at the beginning.")
+else:
+    print("No match found.")
 
 
