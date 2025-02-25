@@ -273,8 +273,33 @@ def is_valid_bd_phone(number):
     pattern = r"^(01[3-9]\d{8})$"
     return bool(re.match(pattern, number))
 
-print(is_valid_bd_phone("01711112222"))  # ✅ True
-print(is_valid_bd_phone("0199999"))      # ❌ False
+print(is_valid_bd_phone("01711112222"))  # True
+print(is_valid_bd_phone("0199999"))      # False
+
+#Create Thread 
+import threading
+
+def print_numbers():
+    for i in range(5):
+        print(i)
+
+t1 = threading.Thread(target=print_numbers)  # create thread 
+t1.join()
+
+#thread run  
+t1.start() 
+
+#Main Thread 
+print("Main thread is running.....")
+
+
+
+
+
+
+
+
+
 
 
 
