@@ -266,6 +266,18 @@ def validate_email(email):
 print(validate_email("tanjerinfo@gmail.com"))  # True
 print(validate_email("tanjerinfo@gmail"))      # False
 
+#Check Bangladeshi Number
+import re
+
+def is_valid_bd_phone(number):
+    pattern = r"^(01[3-9]\d{8})$"
+    return bool(re.match(pattern, number))
+
+print(is_valid_bd_phone("01711112222"))  # ✅ True
+print(is_valid_bd_phone("0199999"))      # ❌ False
+
+
+
 
 
 
