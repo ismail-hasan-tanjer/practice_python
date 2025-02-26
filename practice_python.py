@@ -315,7 +315,15 @@ t2.join()
 
 print("All threads completed")
 
+#Efficient Web Scraping by Multithreading 
 
+import threading
+import requests 
+urls = [
+    "https://www.amardesh.com",
+    "https://www.python.org",
+    "https://www.github.com",
+]
 
 
 
