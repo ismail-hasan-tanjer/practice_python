@@ -293,6 +293,30 @@ t1.start()
 print("Main thread is running.....")
 
 
+#Multiple Threads 
+
+import threading 
+
+def task (name): 
+    for i in range(3):
+        print(f"{name} is running iteration {i}")
+#create two thread 
+t1 = threading.Thread(target=task, args=("Thread-1",))
+t2 = threading.Thread(target=task, args=("Thread-2",))
+
+#run thread 
+t1.start()
+t2.start() 
+
+#wait untill finished thread 
+
+t1.join()
+t2.join()
+
+print("All threads completed")
+
+
+
 
 
 
