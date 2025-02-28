@@ -357,6 +357,15 @@ if __name__ == "__main__":
     p2 = multiprocessing.Process(target=worker, args=("Process-1",))
 
 #process run 
+p1.start()
+p2.start()
+
+#wait for untill finished 
+p1.join()
+p2.join()
+
+print("All processes completed!") 
+
 
 
 
