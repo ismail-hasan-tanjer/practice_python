@@ -342,6 +342,21 @@ for t in threads:
 
 print("All requests completed!")
 
+#Multiprocessing 
+
+import multiprocessing
+import time 
+
+def worker (name): 
+    for i in range(3):
+        print(f"{name} is running iteration {i}")
+        time.sleep(1) # wait for 1 second 
+if __name__ == "__main__":
+    #create two process 
+    p1 = multiprocessing.Process(target=worker, args=("Process-1",))
+    p2 = multiprocessing.Process(target=worker, args=("Process-1",))
+
+#process run 
 
 
 
