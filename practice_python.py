@@ -325,6 +325,25 @@ urls = [
     "https://www.github.com",
 ]
 
+def fetch_data(url):
+    response = requests.get(url)
+    print(f"Fetched {len(response.text)} characters from {url}")
+
+#Thread 
+threads = []
+for url in urls:
+    t = threading.Thread(target=fetch_data, args=(url,))
+    threads.append(t)
+    t.start()
+
+# wait for all great 
+for t in threads:
+    t.join()
+
+print("All requests completed!")
+
+
+
 
 
 
