@@ -413,6 +413,11 @@ print(np.zeros((3, 2))) #[3x3 matrix, all 0]
 print(np.ones((2, 2))) #2x2 matrix, all 1 
 print (np.eye(3)) #3x3 Identity Matrix (Diagonal 1)
 
+#Number Create by Random 
+
+print(np.random.rand(3, 3))  # 3x3 Martix (0-1 in random number)
+print(np.random.randint(1, 10, (2, 2)))  # From 1 to 10, random 2x2 matrix 
+
 
 
 
