@@ -401,6 +401,14 @@ print(arr2)
 arr3 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 print(arr3)
 
+#Array Shape, Size, Type check 
+
+print(arr2.shape)  # (2, 3) -example: 2 row, 3 column
+print(arr2.size)   # Have a  total element
+print(arr2.dtype)  # Datatype (int, float etc.)
+
+
+
 
 
 
