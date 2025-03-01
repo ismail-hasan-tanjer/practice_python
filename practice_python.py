@@ -408,6 +408,15 @@ print(arr2.size)   # Have a  total element
 print(arr2.dtype)  # Datatype (int, float etc.)
 
 
+#Zeros, Ones, Identity Matrix Create 
+print(np.zeros((3, 2))) #[3x3 matrix, all 0]
+print(np.ones((2, 2))) #2x2 matrix, all 1 
+print (np.eye(3)) #3x3 Identity Matrix (Diagonal 1)
+
+
+
+
+
 
 
 
