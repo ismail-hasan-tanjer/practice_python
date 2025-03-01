@@ -379,6 +379,31 @@ x = numpy.mean(speed)
 print(x)
 
 
+#Numerical Computing Library
+
+#NumPy Install 
+
+#  => pip install numpy
+
+#Create Array by Numpy
+
+import numpy as np
+
+# Ekmatrik (1D) Array
+arr1 = np.array([1, 2, 3, 4, 5])
+print(arr1)
+
+# Dimatrik(2D) Array
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr2)
+
+# Treematrik (3D) Array
+arr3 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+print(arr3)
+
+
+
+
 
 
 
