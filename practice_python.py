@@ -486,6 +486,15 @@ data = {
 df = pd.DataFrame(data)
 print(df) 
 
+#data load from CSV File 
+
+df = pd.read_csv("data.csv")
+print(df.head())  # show first 5 row 
+print(df.tail())  # show last 5 row 
+
+
+
+
 
 
 
