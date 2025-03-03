@@ -451,6 +451,15 @@ print(np.std(arr))  # (Standard Deviation)
 print(np.var(arr))  # (Variance)
 
 
+#NumPy Practice Task 
+arr = np.array([[3, 6, 9], [2, 5, 8], [1, 4, 7]])
+print(np.max(arr, axis=0))  # Accordingly high rate
+print(np.min(arr, axis=1))  # Accordingly lowest rate 
+
+
+
+
+
 
 
 
