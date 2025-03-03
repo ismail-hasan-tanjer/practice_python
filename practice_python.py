@@ -519,6 +519,22 @@ df.dropna(implace=True) #Missing Values row totally out
 # Can work with multi-dimensional arrays & matrices.
 # It is essential in Machine Learning, Data Science and AI.
 
+#NumPy Install 
+
+#pip install numpy
+
+# Creating a NumPy Array
+# 1D Array (one-dimensional array)
+
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+print(type(arr))  # numpy.ndarray 
+
+
+
+
 
 
 
