@@ -509,6 +509,11 @@ print(df["Age"].mean())  # Finding the average age
 filtered_df = df[df["salary"]>5500]
 print(filtered_df)
 
+#Missing Values Handling 
+df.fillna(0, implace=True) #Missing Values fullfil by 0
+df.dropna(implace=True) #Missing Values row totally out 
+
+
 
 
 
