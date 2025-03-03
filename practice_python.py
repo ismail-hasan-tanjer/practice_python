@@ -533,6 +533,20 @@ print(arr)
 print(type(arr))  # numpy.ndarray 
 
 
+#2D Array (two-dimensional matrix)
+
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+print(matrix)
+
+#Knowing the size of an array (Shape & Size)
+
+print(matrix.shape)  # (2, 3) -> 2 rows, 3 columns
+print(matrix.size)   # Total number of elements
+print(matrix.ndim)   # How many (dimensions) array 
+
+
+
+
 
 
 
