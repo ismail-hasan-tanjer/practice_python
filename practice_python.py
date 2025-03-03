@@ -513,6 +513,12 @@ print(filtered_df)
 df.fillna(0, implace=True) #Missing Values fullfil by 0
 df.dropna(implace=True) #Missing Values row totally out 
 
+#NumPy  - Numerical Computation 
+
+# NumPy (Numerical Python) is the most popular Python library for high-performance numerical computation.
+# Can work with multi-dimensional arrays & matrices.
+# It is essential in Machine Learning, Data Science and AI.
+
 
 
 
