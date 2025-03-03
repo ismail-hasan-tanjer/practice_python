@@ -492,6 +492,14 @@ df = pd.read_csv("data.csv")
 print(df.head())  # show first 5 row 
 print(df.tail())  # show last 5 row 
 
+#Selecting specific columns and rows from a DataFrame
+
+print(df["Name"])  # show selected column 
+print(df.iloc[0])  # show first row 
+print(df.loc[0, "Salary"])  # show data from selected data column and row 
+
+
+
 
 
 
