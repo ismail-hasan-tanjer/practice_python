@@ -499,6 +499,11 @@ print(df.iloc[0])  # show first row
 print(df.loc[0, "Salary"])  # show data from selected data column and row 
 
 
+#Data Analysis 
+
+print(df.describe())  # Summary statistics showed
+print(df.info())  # type of data set and missing values showed
+print(df["Age"].mean())  # Finding the average age 
 
 
 
