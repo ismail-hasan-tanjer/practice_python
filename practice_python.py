@@ -426,6 +426,17 @@ print(arr[0])
 print(arr[1:4])    
 print(arr[-1])     # end element 
 
+#Matrix Operations
+
+#Element-wise
+
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[5, 6], [7, 8]])
+
+print(a + b)  # Sum
+print(a - b)  # Subtraction
+print(a * b)  # Multiplication (Element-wise)
+print(a / b)  # Division 
 
 
 
