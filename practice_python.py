@@ -505,6 +505,13 @@ print(df.describe())  # Summary statistics showed
 print(df.info())  # type of data set and missing values showed
 print(df["Age"].mean())  # Finding the average age 
 
+#Data Filtering 
+filtered_df = df[df["salary"]>5500]
+print(filtered_df)
+
+
+
+
 
 
 
