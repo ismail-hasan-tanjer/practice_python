@@ -456,6 +456,29 @@ arr = np.array([[3, 6, 9], [2, 5, 8], [1, 4, 7]])
 print(np.max(arr, axis=0))  # Accordingly high rate
 print(np.min(arr, axis=1))  # Accordingly lowest rate 
 
+#Pandas - Data Analysis Library 
+
+#pandas install 
+
+# pip install pandas
+
+#Pandas Series 
+
+#Single Column Data 
+
+import pandas as pd
+
+data = [10, 20, 30, 40, 50]
+series = pd.Series(data)
+
+print(series)
+
+
+
+
+
+
+
 
 
 
