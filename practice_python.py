@@ -419,6 +419,13 @@ print(np.random.rand(3, 3))  # 3x3 Martix (0-1 in random number)
 print(np.random.randint(1, 10, (2, 2)))  # From 1 to 10, random 2x2 matrix 
 
 
+#Array Indexing & Slicing
+
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[0])      
+print(arr[1:4])    
+print(arr[-1])     # end element 
+
 
 
 
