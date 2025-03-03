@@ -558,6 +558,14 @@ print(ones)
 random_numbers = np.random.rand(3, 3) #3x3 matrix random number 
 print(random_numbers)
 
+#Changing the elements of an array 
+
+arr[0] = 100  # First element change
+matrix[1, 2] = 99  # Change the value of the 3rd column of the 2nd row.
+
+
+
+
 
 
 
