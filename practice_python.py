@@ -544,6 +544,18 @@ print(matrix.shape)  # (2, 3) -> 2 rows, 3 columns
 print(matrix.size)   # Total number of elements
 print(matrix.ndim)   # How many (dimensions) array 
 
+#Important functions of NumPy
+
+#Creating an Array of Zeros and Ones
+
+zeros = np.zeros((3, 3))  # 3x3 matrix, all values ​​0
+ones = np.ones((2, 4))  # 2x4 matrix, all values ​​1
+print(zeros)
+print(ones)
+
+
+
+
 
 
 
