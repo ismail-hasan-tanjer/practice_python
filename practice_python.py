@@ -439,6 +439,11 @@ print(a * b)  # Multiplication (Element-wise)
 print(a / b)  # Division 
 
 
+#Dot Product (Matrix Multiplication)
+print(np.dot(a, b)) 
+
+
+
 
 
 
