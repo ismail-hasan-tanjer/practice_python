@@ -553,6 +553,11 @@ ones = np.ones((2, 4))  # 2x4 matrix, all values ​​1
 print(zeros)
 print(ones)
 
+#Generating random numbers
+
+random_numbers = np.random.rand(3, 3) #3x3 matrix random number 
+print(random_numbers)
+
 
 
 
