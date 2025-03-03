@@ -369,7 +369,6 @@ print("All processes completed!")
 #python machine learning 
 
 #Mean Median Mode 
-
 import numpy
 
 speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
@@ -441,6 +440,17 @@ print(a / b)  # Division
 
 #Dot Product (Matrix Multiplication)
 print(np.dot(a, b)) 
+
+
+#Statistical Operations in NumPy
+
+arr = np.array([1, 2, 3, 4, 5])
+print(np.mean(arr))  # (Mean)
+print(np.median(arr))  # (Median)
+print(np.std(arr))  # (Standard Deviation)
+print(np.var(arr))  # (Variance)
+
+
 
 
 
