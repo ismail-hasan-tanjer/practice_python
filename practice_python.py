@@ -473,6 +473,21 @@ series = pd.Series(data)
 
 print(series)
 
+# Pandas DataFrame
+#Table circle data 
+#A DataFrame is a 2D database with multiple columns. 
+
+data = {
+    "Name": ["Tanjer", "Rahim", "Karim"],
+    "Age": [25, 30, 35],
+    "Salary": [50000, 60000, 70000]
+}
+
+df = pd.DataFrame(data)
+print(df) 
+
+
+
 
 
 
