@@ -577,6 +577,14 @@ arr2 = np.array([4,  5, 6])
 print(arr1 + arr2) # Adding by ingredient
 print(arr1 * arr2) # Multiply by elements 
 
+#Matrix Multiplication 
+
+A = np.array([1, 2], [3, 4])
+B = np.array([5, 6], [7, 8])
+
+result = np.dot(A, B)
+print(result)
+
 
 
 
