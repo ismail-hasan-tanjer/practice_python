@@ -585,6 +585,26 @@ B = np.array([5, 6], [7, 8])
 result = np.dot(A, B)
 print(result)
 
+#Lambda Functions
+
+#Lambda functions are short, one-line functions that can be written without using def.
+
+#General Function 
+def square(x):
+    return x * x
+
+#Same work by Lambda Function 
+
+square_lambda = lambda x: x * x
+
+print (square(5))
+print (square_lambda) 
+
+#add by lambda 
+square_lambda = lambda x: x + x 
+print (square_lambda(5))
+
+
 
 
 
