@@ -570,6 +570,17 @@ print(arr+5) # Adding 5 to each element
 print(arr * 2) # Doubling each element
 print(np.sqrt(arr)) # Square root of each element
 
+#Operations between two Arrays 
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4,  5, 6])
+
+print(arr1 + arr2) # Adding by ingredient
+print(arr1 * arr2) # Multiply by elements 
+
+
+
+
+
 
 
 
