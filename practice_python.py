@@ -563,7 +563,12 @@ print(random_numbers)
 arr[0] = 100  # First element change
 matrix[1, 2] = 99  # Change the value of the 3rd column of the 2nd row.
 
+#Arithmetic operations of Array
 
+arr = np.array([10, 20, 30, 40])
+print(arr+5) # Adding 5 to each element
+print(arr * 2) # Doubling each element
+print(np.sqrt(arr)) # Square root of each element
 
 
 
