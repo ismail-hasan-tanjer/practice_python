@@ -616,6 +616,20 @@ print(next(gen))  # Output: 1
 print(next(gen))  # Output: 2
 print(next(gen))  # Output: 3
 
+#Decorates [Decorator is a technique used to modify or extend functions.]
+
+def my_decorator(func):
+    def wrapper():
+        print("Executive before function call")
+        func()
+        print("Executive after function call")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello, world!")
+
+say_hello()
 
 
 
