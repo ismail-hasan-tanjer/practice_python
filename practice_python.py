@@ -649,8 +649,26 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error 
 
+#Working with Datasets (Real-World Example)
+#  Scikit-Learn has in-built datasets (e.g. iris, digits, wine, boston housing, etc.).
+# We can read CSV files with pandas and analyze them in Scikit-Learn.
 
+# Example of loading a dataset (Iris Dataset)
 
+from sklearn.datasets import load_iris
+
+#Iris dataset load 
+
+iris = load_iris() 
+X = iris.data
+y = iris.target 
+
+#data frame convert 
+
+df = pd.DataFrame(X, columns=iris.feature_names)
+df['species'] = y
+
+print(df.head()) #show 5 data 
 
 
 
