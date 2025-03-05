@@ -14,12 +14,12 @@ This repository contains my **Python practice files**, covering various **Advanc
 
 # 📖 Learning Goals
 ✔️ Currently Learning: Machine Learning & Data Science
+
 ✔️ Next Goal: Deep Learning & AI with TensorFlow
 
-#🏆 About Me
+# 🏆 About Me
 I am Md. Ismail Hasan Tanjer, a Software Engineer & Data Science Enthusiast passionate about Python, AI, and Automation.
-🔗 LinkedIn Profile
 
-📬 Contact
+## 📬 Contact
 📩 Email: tanjerinfo@gmail.com
 📞 Phone: +8801938561706
