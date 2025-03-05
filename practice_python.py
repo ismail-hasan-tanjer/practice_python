@@ -725,7 +725,6 @@ print(df.head()) #show 5 data
 
 
 
-
     
 
 
