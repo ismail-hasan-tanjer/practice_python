@@ -677,6 +677,26 @@ print(df.head()) #show 5 data
 x_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 print(f"Train Data: {x_train.shape}, Test Data: {X_test.shape}")
 
+#Machine Learning Model Training and Prediction
+# (1) Linear Regression (Regression Prediction Model)
+# Uses: House price prediction, sales prediction, etc.
+# Linear Regression Code:
+
+from sklearn.linear_model import LinearRegression
+
+#Create Model 
+model = LinearRegression () 
+
+#Model Training 
+model.fit(x_train, y_train)
+
+#Prediction 
+y_pred = model.predict(X_test)
+
+#Model Evaluation 
+mse = mean_squared_error (y_test, y_pred)
+print(f"Mean Squared Error: {mse}") 
+
 
 
 
