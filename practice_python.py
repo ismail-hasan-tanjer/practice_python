@@ -761,7 +761,26 @@ grid_search.fit(x_train, y_train)
 
 print(f"Best Parameters: {grid_search.best_params_}")
 
+#Deep Learning (TensorFlow & Keras)
+#Deep Learning models are created using Neural Networks.
+#Image, text and speech analysis is done using TensorFlow/Keras.
 
+# A simple Neural Network code:
+
+import tensorflow as tf
+from tensorflow import keras
+
+# Model Create 
+model = keras.Sequential([
+    keras.layers.Dense(16, activation='relu'),
+    keras.layers.Dense(8, activation='relu'),
+    keras.layers.Dense(1, activation='sigmoid')
+])
+
+# Model Compile 
+model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+
+print("Model successfully created and compiled!")
 
 
 
