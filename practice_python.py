@@ -729,7 +729,29 @@ y_pred_rf = rf_model.predict(X_test)
 
 # Accuracy Check 
 accuracy_rf = rf_model.score(X_test, y_test)
-print(f"Random Forest Accuracy: {accuracy_rf * 100:.2f}%")
+print(f"Random Forest Accuracy: {accuracy_rf * 100:.2f}%") 
+
+
+#Support Vector Machine (SVM)
+#Uses: Image processing, text classification, etc.
+
+# SVM code:
+from sklearn.svm import SVC
+
+# Model Create 
+svm_model = SVC()
+
+# Model Training 
+svm_model.fit(x_train, y_train)
+
+# Accuracy Check 
+accuracy_svm = svm_model.score(X_test, y_test)
+print(f"SVM Accuracy: {accuracy_svm * 100:.2f}%")  
+
+
+
+
+
 
 
 
