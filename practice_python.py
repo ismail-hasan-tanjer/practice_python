@@ -749,6 +749,17 @@ accuracy_svm = svm_model.score(X_test, y_test)
 print(f"SVM Accuracy: {accuracy_svm * 100:.2f}%")  
 
 
+#Hyperparameter Tuning & Model Optimization
+# Models are optimized using Grid Search CV and Randomized Search CV.
+# Grid Search CV Example:
+
+from sklearn.model_selection import GridSearchCV
+
+params = {"n_estimators": [50, 100, 150], "max_depth": [3, 5, 7]}
+grid_search = GridSearchCV(RandomForestClassifier(), params, cv=5)
+grid_search.fit(x_train, y_train)
+
+print(f"Best Parameters: {grid_search.best_params_}")
 
 
 
