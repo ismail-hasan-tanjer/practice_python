@@ -697,6 +697,23 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error (y_test, y_pred)
 print(f"Mean Squared Error: {mse}") 
 
+#Decision Tree Classifier (Classification Model)
+#Uses: Credit Risk Analysis, Disease Diagnosis, etc.
+#Decision Tree Code:
+
+from sklearn.tree import DecisionTreeClassifier
+
+#Model Create and Training 
+dt_model = DecisionTreeClassifier() 
+dt_model.fit(x_train, y_train) 
+
+#Prediction and Accuracy Check 
+y_pred_dt = dt_model.predict(X_test)
+accuracy_dt = dt_model.score(X_test, y_test)
+print(f"Decision Tree Accuracy: {accuracy_dt * 100:.2f}%")
+
+
+
 
 
 
