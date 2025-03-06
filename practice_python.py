@@ -670,6 +670,16 @@ df['species'] = y
 
 print(df.head()) #show 5 data 
 
+#Splitting the dataset into training and test sets
+# The data model is kept 70% for training and 30% for testing.
+# Splitting the training and test data (Train-Test Split)
+
+x_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+print(f"Train Data: {x_train.shape}, Test Data: {X_test.shape}")
+
+
+
+
 
 
 
