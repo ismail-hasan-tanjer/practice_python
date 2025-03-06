@@ -712,6 +712,24 @@ y_pred_dt = dt_model.predict(X_test)
 accuracy_dt = dt_model.score(X_test, y_test)
 print(f"Decision Tree Accuracy: {accuracy_dt * 100:.2f}%")
 
+#Random Forest Classifier (Ensemble Model)
+#Uses: Fraud Detection, Image Classification, etc.
+#Random Forest Code: 
+
+from sklearn.ensemble import RandomForestClassifier
+
+# Model Create 
+rf_model = RandomForestClassifier(n_estimators=100)
+
+# Model Training 
+rf_model.fit(x_train, y_train)
+
+# Prediction 
+y_pred_rf = rf_model.predict(X_test)
+
+# Accuracy Check 
+accuracy_rf = rf_model.score(X_test, y_test)
+print(f"Random Forest Accuracy: {accuracy_rf * 100:.2f}%")
 
 
 
