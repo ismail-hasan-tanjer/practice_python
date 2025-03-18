@@ -803,7 +803,8 @@ del obj  # Object deleted, but memory may still be in use
 gc.collect()  # Force garbage collection
 
 
-
+2️⃣ Metaclasses (Dynamic Class Creation)
+In Python, classes can be created at runtime using Metaclasses.
 
 
 
