@@ -806,6 +806,18 @@ gc.collect()  # Force garbage collection
 2️⃣ Metaclasses (Dynamic Class Creation)
 In Python, classes can be created at runtime using Metaclasses.
 
+#code 
+
+class Meta(type):
+    def __new__(cls, name, bases, dct):
+        print(f"Creating class: {name}")
+        return super().__new__(cls, name, bases, dct)
+
+class MyClass(metaclass=Meta):
+    pass  # When this class is created, metaclass runs
+
+obj = MyClass()
+
 
 
 
