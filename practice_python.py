@@ -820,15 +820,34 @@ obj = MyClass()
 
 Decorators & Closures (Function Modification)
 
+Function Decorators
+
+def my_decorator(func):
+    def wrapper():
+        print("Before function call")
+        func()
+        print("After function call")
+    return wrapper
+
+@my_decorator
+def say_hello():
+    print("Hello, World!")
+
+say_hello()
 
 
+Generators & Iterators
 
 
+Lazy Evaluation with Generators
 
+def my_generator():
+    for i in range(5):
+        yield i
 
-
-
-
+gen = my_generator()
+print(next(gen))  # 0
+print(next(gen))  # 1
 
 
 
