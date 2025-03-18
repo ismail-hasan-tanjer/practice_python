@@ -886,6 +886,18 @@ match = re.search(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", text)
 if match:
     print(match.group())
 
+7️⃣ Web Scraping (BeautifulSoup & Selenium)
+✅ Scraping HTML Content
+
+from bs4 import BeautifulSoup
+import requests
+
+url = "https://example.com"
+response = requests.get(url)
+soup = BeautifulSoup(response.text, "html.parser")
+
+print(soup.title.text)
+
 
 
 
