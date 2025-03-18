@@ -849,7 +849,7 @@ gen = my_generator()
 print(next(gen))  # 0
 print(next(gen))  # 1
 
-Multithreading & Multiprocessing (Concurrency & Parallelism)
+5. Multithreading & Multiprocessing (Concurrency & Parallelism)
 Multithreading (For I/O Bound Tasks)
 
 import threading
@@ -862,8 +862,16 @@ t1 = threading.Thread(target=print_numbers)
 t1.start()
 t1.join()
 
+**Multiprocessing (For CPU Bound Tasks)
 
+import multiprocessing
 
+def square(x):
+    return x * x
+
+pool = multiprocessing.Pool(processes=4)
+result = pool.map(square, [1, 2, 3, 4])
+print(result)
 
 
 
