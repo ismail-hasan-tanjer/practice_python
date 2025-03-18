@@ -818,6 +818,8 @@ class MyClass(metaclass=Meta):
 
 obj = MyClass()
 
+Decorators & Closures (Function Modification)
+
 
 
 
