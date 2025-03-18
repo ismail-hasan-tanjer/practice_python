@@ -849,6 +849,19 @@ gen = my_generator()
 print(next(gen))  # 0
 print(next(gen))  # 1
 
+Multithreading & Multiprocessing (Concurrency & Parallelism)
+Multithreading (For I/O Bound Tasks)
+
+import threading
+
+def print_numbers():
+    for i in range(5):
+        print(i)
+
+t1 = threading.Thread(target=print_numbers)
+t1.start()
+t1.join()
+
 
 
 
