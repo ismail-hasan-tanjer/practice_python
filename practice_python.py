@@ -782,6 +782,13 @@ model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy']
 
 print("Model successfully created and compiled!")
 
+Advanced Python Topics
+
+1️⃣ Python Internals & Memory Management
+It is important to understand the inner workings of how Python executes code.
+
+✅ Garbage Collection & Memory Optimization
+The Garbage Collector (GC) in Python automatically cleans up unused memory.
 
 
 
