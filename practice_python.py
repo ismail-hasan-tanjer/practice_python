@@ -874,6 +874,18 @@ result = pool.map(square, [1, 2, 3, 4])
 print(result)
 
 
+6️⃣ Regular Expressions (Regex)
+✅ Find Email Using Regex
+
+code 
+
+import re
+
+text = "My email is example@email.com"
+match = re.search(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", text)
+if match:
+    print(match.group())
+
 
 
 
