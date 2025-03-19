@@ -902,8 +902,38 @@ print(soup.title.text)
 8️⃣ Database Handling (SQLite, MySQL, MongoDB)
 ✅ Using SQLite in Python
 
+import sqlite3
+
+conn = sqlite3.connect("database.db")
+cursor = conn.cursor()
+
+cursor.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER, name TEXT)")
+cursor.execute("INSERT INTO users VALUES (1, 'John Doe')")
+
+conn.commit()
+conn.close()
 
 
+9️⃣ API Development (FastAPI, Flask, Django Rest Framework)
+
+=> Simple FastAPI Example
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Hello, World!"}
+
+🔟 Docker & Cloud Deployment (AWS, GCP, Azure)
+✅ Dockerizing a Python App
+
+FROM python:3.9
+WORKDIR /app
+COPY . /app
+RUN pip install -r requirements.txt
+CMD ["python", "app.py"]
 
 
 
