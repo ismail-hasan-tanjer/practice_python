@@ -899,6 +899,10 @@ soup = BeautifulSoup(response.text, "html.parser")
 print(soup.title.text)
 
 
+8️⃣ Database Handling (SQLite, MySQL, MongoDB)
+✅ Using SQLite in Python
+
+
 
 
 
