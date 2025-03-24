@@ -945,6 +945,14 @@ Python is an interpreted language, which means that the CPython interpreter exec
 
 ✅ Python uses its own Garbage Collector (GC) for memory management.
 
+#step by  step 
+
+def func():
+    x = 10
+    y = x * 2
+    return y
+
+print(func())  # 20
 
 
 
