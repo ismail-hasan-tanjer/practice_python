@@ -938,6 +938,14 @@ CMD ["python", "app.py"]
 Step 1: Python Internals & Memory Management
 Understanding how Python manages memory and how the backend processes of code execution work is crucial for an advanced Python programmer.
 
+1️⃣ Python Execution Model (How Python Runs Code)
+Python is an interpreted language, which means that the CPython interpreter executes the code line by line.
+
+✅ Python code is first compiled to Bytecode (.pyc), then the Python Virtual Machine (PVM) runs it.
+
+✅ Python uses its own Garbage Collector (GC) for memory management.
+
+
 
 
 
