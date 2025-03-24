@@ -935,6 +935,10 @@ COPY . /app
 RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 
+Step 1: Python Internals & Memory Management
+Understanding how Python manages memory and how the backend processes of code execution work is crucial for an advanced Python programmer.
+
+
 
 
 
